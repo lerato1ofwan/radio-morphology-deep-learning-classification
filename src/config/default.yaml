@@ -1,0 +1,27 @@
+# Override any of these
+log_transform: true
+log_c: 1.0
+contrast_stretch: true
+
+denoise_method: gaussian   # gaussian | median | none
+denoise_sigma: 0.8
+denoise_ksize: 5
+
+background_method: tophat  # tophat | none
+background_se_radius: 24
+
+sharpen_method: unsharp    # unsharp | none
+unsharp_amount: 0.45
+unsharp_radius: 3
+
+mask_threshold: otsu       # otsu | kapur | none
+closing_radius: 5
+crop_margin: 12
+
+resize_to: 320
+interpolation: bicubic     # bilinear | bicubic | nearest
+
+save_mask: true
+quality_gate: true
+min_edge_density: 0.001
+min_laplacian_var: 0.5
