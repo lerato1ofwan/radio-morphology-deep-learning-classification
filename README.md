@@ -16,7 +16,7 @@ The primary goal is to build a robust, multi-label classifier that can handle cl
 
 * Lerato Letsepe
 * Aidan Govender
-* Etienne van Zyl
+* Ettienne van Zyl
 
 ---
 
